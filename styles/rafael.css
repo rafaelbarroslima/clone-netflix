@@ -1,6 +1,7 @@
 :root {
   --vermelho: #e50914;
   --preto: #141414;
+  --branco: #ffffff;
 }
 
 * {
@@ -60,7 +61,7 @@ header .container {
 
 .material-icons {
   position: relative;
-  color: #fff;
+  color: var(--branco);
   cursor: pointer;
 }
 
@@ -87,20 +88,24 @@ header .container {
 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(1, 1, 1, 0.5) 100%), url('/imgs/Limitless.jpg');
   background-size: cover;
-  height: 700px;
+  height: 800px;
 
 }
 
+.filme-principal .container {
+  margin-left: 20px;
+  width: 50%;
+}
+
 .titulo {
-  color: #fff;
+  color: var(--branco);
   font-size: 40px;
 }
 
 .descricao {
-  color: #fff;
+  color: var(--branco);
   margin-top: 10px;
   margin-bottom: 40px;
-  max-width: 600px;
   line-height: 20px;
 }
 
@@ -113,7 +118,7 @@ header .container {
   font-size: 16px;
   display: inline-flex;
   cursor: pointer;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 #botao-assistir {
@@ -123,6 +128,7 @@ header .container {
 
 #botao-assistir:hover {
   background-color: rgba(255, 255, 255, 0.75);
+  transition: 0.3s;
 }
 
 #botao-assistir .material-icons {
@@ -135,7 +141,7 @@ header .container {
 #botao-informacao {
   align-items: center;
   background-color: rgba(109,109,110,0.5);
-  color: white;
+  color: var(--branco);
 }
 
 #botao-informacao .material-icons {
@@ -147,5 +153,25 @@ header .container {
 #botao-informacao:hover {
   background-color: rgba(109,109,110,0.4);
   opacity: 0.7;
+  transition: 0.3s;
 }
 
+/* ========== CAROUSEL ========== */
+
+.box-filme {
+  display: block;
+  width: 98%;
+  height: 98%;
+}
+
+.carrossel-titulo {
+  color: #e5e5e5;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.carrossel-filmes {
+  width: 100vw;
+  margin: 5px auto;
+}
