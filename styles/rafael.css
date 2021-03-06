@@ -19,6 +19,7 @@ header .container {
   position: fixed;
   height: 68px;
   transition: 0.5s;
+  z-index: 1;
 }
 
 #logo {
