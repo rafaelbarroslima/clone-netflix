@@ -176,3 +176,7 @@ header .container {
   width: 100vw;
   margin: 5px auto;
 }
+
+.item {
+  cursor: pointer;
+}
