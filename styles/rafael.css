@@ -45,6 +45,7 @@ header .container {
   position: fixed;
   top: 0px;
   background-color: #000000;
+  width: 100%;
 }
 
 .links a {
@@ -179,4 +180,61 @@ header .container {
 
 .item {
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 950px) {
+  .links a {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .botoes {
+    margin-bottom: 30px;
+  }
+  .botoes button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #logo {
+    display: none;
+  }
+  .menu {
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .menu {
+    display: inline-block;
+  }
+  .links {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .icons {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .carrossel-titulo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .botoes button {
+    width: 270px;
+  }
+  .carrossel-titulo {
+    font-size: 20px;
+  }
 }

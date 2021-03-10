@@ -95,3 +95,13 @@ li:hover span {
   border: 1px solid white;
   color: #fff;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 40px;
+  }
+  
+  .button {
+      margin: 50px auto;
+  }
+}
