@@ -47,6 +47,8 @@ ser o mais próximo possível da atual página de login e página inicial do sit
 ### Etapas do projeto
 
 - [x] Colocar o site no ar para aprender sobre deploy de aplicação
+- [x] Adicionar mudança de cor ao navbar quando der scroll na página e deixá-lo fixo.
+- [x] Adicionar media querys para responsividade da tela em diversos tamanhos.
 - [ ] Modificar os cards dos filmes para que quando o mouse fique em cima, abra um modal com o trailler do filme
 - [ ] Criar uma alternativa para favoritar os filmes desejados
 - [ ] Ativar campo de busca para pesquisar filmes
