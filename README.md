@@ -36,7 +36,7 @@ ser o mais próximo possível da atual página de login e página inicial do sit
 
 #### O site pode ser acessado no seguinte endereço:
 
-- https://netflixclone.ga/
+- https://rafaflix.netlify.app/
 
 - O site utiliza o Netlify e um domínio .ga
 
