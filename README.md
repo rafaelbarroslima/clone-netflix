@@ -38,7 +38,7 @@ ser o mais próximo possível da atual página de login e página inicial do sit
 
 - https://rafaflix.netlify.app/
 
-- O site utiliza o Netlify e um domínio .ga
+- O site utiliza o Netlify.
 
 
 
